@@ -4,9 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/25a49a4783.js" crossorigin="anonymous"></script>
   <title>Sign-Up Form</title>
 </head>
 <body>
-  
+
+  <div id="sidebar">
+    <div class="title">
+      <i class="fa-solid fa-otter"></i>
+      Otter
+    </div>
+    <div class="credit">
+      Photo by <a href="https://unsplash.com/photos/eo-rKe6A5ZY">Geronimo Giqueaux</a> on <a href="https://unsplash.com/">Unsplash</a>
+    </div>
+  </div>
+
+  <form>
+    <div id="topText">
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+
+      <p>You <em>know</em> you want to.</p>
+    </div>
+
+    <div id="signUpForm">
+      <p>Let's do this!</p>
+
+      <label for="first">first name</label>
+      <input id="first" type="text" required />
+
+      <label for="last">last name</label>
+      <input id="last" type="text" required />
+
+      <label for="email">email</label>
+      <input id="email" type="email" />
+
+      <label for="phone">phone number</label>
+      <input id="phone" type="tel" />
+
+      <label for="pass1">password</label>
+      <input id="pass1" type="password" />
+
+      <label for="pass2">confirm password</label>
+      <input id="pass2" type="password" />
+    </div>
+
+    <input type="button" value="Create Account" />
+  </form>
+
+  <p class="small">Already have an account? <a>Log in</a></p>
 </body>
 </html>
