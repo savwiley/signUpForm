@@ -112,7 +112,7 @@ input {
   outline: none;
 }
 input:focus {
-  border: 1px solid #2184e7;
+  border: 1px solid #2184e7 !important;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
