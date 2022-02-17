@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/style.css" rel="stylesheet">
-  <script src="/passwordConfirm.js"></script>
   <script src="https://kit.fontawesome.com/25a49a4783.js" crossorigin="anonymous"></script>
   <title>Sign-Up Form</title>
 </head>
@@ -53,12 +52,13 @@
 
         <div class="input">
           <label for="pass1">password</label>
-          <input id="pass1" type="password" />
+          <input id="pass1" type="password" onChange="confirm()" required />
+          <span>* Passwords do not match</span>
         </div>
 
         <div class="input">
           <label for="pass2">confirm password</label>
-          <input id="pass2" type="password" />
+          <input id="pass2" type="password" onChange="confirm()" required />
         </div>
       </div>
     </div>
@@ -70,4 +70,5 @@
     </div>
   </form>
 </body>
+<script src="/passwordConfirm.js"></script>
 </html>
