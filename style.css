@@ -96,6 +96,13 @@ form {
   padding: 10px 50px 0 0;
 }
 
+.input span {
+  color: var(--accent);
+  font-size: 0.7em;
+  font-weight: normal;
+  display: none;
+}
+
 input {
   border-radius: 5px;
   padding: 5px;
